@@ -1,0 +1,51 @@
+@(title: String)(content: Html)
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="CoreUI - Open Source Bootstrap backend Template">
+        <meta name="author" content="Łukasz Holeczek">
+        <meta name="keyword" content="Bootstrap,backend,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
+        <link rel="shortcut icon" href="img/favicon.png">
+
+        <title>@title</title>
+            <!-- Icons -->
+        <link href="@routes.Assets.at("backend/css/font-awesome.min.css")" rel="stylesheet">
+        <link href="@routes.Assets.at("backend/css/simple-line-icons.css")" rel="stylesheet">
+
+        <link href="@routes.Assets.at("backend/css/style.css")" rel="stylesheet">
+
+    </head>
+
+    <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+
+        @views.html.backend.layouts.header()
+
+    <div class="app-body">
+        @views.html.backend.layouts.sidebar()
+    <main class="main">
+    @content
+    </main>
+        @views.html.backend.layouts.aside()
+    </div>
+
+        @views.html.backend.layouts.footer()
+
+    <script src="@routes.Assets.at("backend/bower_components/jquery/dist/jquery.min.js")"></script>
+    <script src="@routes.Assets.at("backend/bower_components/tether/dist/js/tether.min.js")"></script>
+    <script src="@routes.Assets.at("backend/bower_components/bootstrap/dist/js/bootstrap.min.js")"></script>
+    <script src="@routes.Assets.at("backend/bower_components/pace/pace.min.js")"></script>
+
+    <script src="@routes.Assets.at("backend/bower_components/chart.js/dist/Chart.min.js")"></script>
+
+    <script src="@routes.Assets.at("backend/js/app.js")"></script>
+
+    <script src="@routes.Assets.at("backend/js/views/main.js")"></script>
+
+    </body>
+
+</html>
