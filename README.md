@@ -1,13 +1,6 @@
 [<img src="https://img.shields.io/travis/playframework/play-java-ebean-example.svg"/>](https://travis-ci.org/playframework/play-java-ebean-example)
 
-# play-java-ebean-example
-
-This is an example Play application that uses Java, and communicates with an in memory database using EBean.
-
-The Github location for this project is:
-
-[https://github.com/playframework/play-java-ebean-example](https://github.com/playframework/play-java-ebean-example)
-
+# Play Framework Template
 ## Play
 
 Play documentation is here:
