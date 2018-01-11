@@ -1,6 +1,5 @@
-[<img src="https://img.shields.io/travis/playframework/play-java-ebean-example.svg"/>](https://travis-ci.org/playframework/play-java-ebean-example)
-
 # Play Framework Template
+
 ## Play
 
 Play documentation is here:
