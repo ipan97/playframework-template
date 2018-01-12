@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/lunatech-demo-cd-play-scala-heroku -Dhttp.port=${PORT}
+web: target/universal/stage/bin/playframework-template -Dhttp.port=${PORT}
